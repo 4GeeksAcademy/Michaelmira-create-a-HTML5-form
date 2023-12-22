@@ -13,3 +13,13 @@
 .comments{
     height: 75px;
 }
+.amex-card, .diners-card, .master-card {
+    color: white;
+}
+.card-box { 
+    width: 80%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
