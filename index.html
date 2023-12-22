@@ -6,20 +6,26 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 
 </head>
 <body>
     <div class="container pt-4">
         <div class="card">
+            <!-- Header -->
             <div class="card-header">
               <strong class="fs-3">Payment form example</strong>
             </div>
+            <!-- Header -->
+            <!-- Danger Alert -->
             <div class="container pt-4">
                 <div class="alert alert-danger" role="alert">
                     A simple danger alert—check it out!
                 </div>
             </div>
+            <!-- Danger Alert -->
+            <!-- Card # CVC Amount Inputs -->
             <div class="container">
                 <div class="row">
                     <div class="col-5">
@@ -48,6 +54,8 @@
                     </div>
                 </div>
             </div>
+            <!-- Card # CVC Amount Inputs -->
+            <!-- First Name & Last Name Inputs -->
             <div class="container">
                 <div class="row">
                     <div class="col-6">
@@ -56,11 +64,13 @@
 
                     </div>
                     <div class="col-6">
-                        <div class="pb-2"><strong>First Name</strong></div>
+                        <div class="pb-2"><strong>Last Name</strong></div>
                         <input type="text" class="form-control"  aria-label="Recipient's username" aria-describedby="basic-addon2">
                     </div>
                 </div>
             </div>
+            <!-- First Name & Last Name Inputs -->
+            <!-- City State(Dropdown), Postal Code -->
             <div class="container">
                 <div class="row">
                     <div class="col-6">
@@ -83,19 +93,44 @@
                     </div>
                 </div>
             </div>
-            
+            <!-- City State(Dropdown), Postal Code -->
+  
+            <div class="container pt-2 pb-3">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="col-6">
+                            <div class="col-md-auto">
+                                <label for="We-accept" class="form-label "><strong>We accept:</strong></label>
+                                    <div class="row bg-secondary rounded-2">
+                                        <div class="visa-card col-md-auto"><input type="radio" name="color" value="visa" />
+                                            <i class="fa-brands fa-cc-visa"></i>
+                                        </div>
+                                        <div class="amex-card col-md-auto"><input type="radio" name="color" value="amex" />
+                                            <i class="fa-brands fa-cc-amex"></i>
+                                        </div>
+                                        <div class="diners-card col-md-auto"><input type="radio" name="color" value="diners club" />
+                                            <i class="fa-brands fa-cc-diners-club"></i>
+                                        </div>
+                                        <div class="master-card col-md-auto"><input type="radio" name="color" value="mastercard" />
+                                            <i class="fa-brands fa-cc-mastercard"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-6"></div>
+                    </div>
+                    <div class="col-6">
+                        <div class="col-md-auto ">
+                            <p><strong>Message</strong>
+                            </p>
+                            <textarea  class="comments form-control" rows="4"></textarea>
+                        </div>
+                        <p>add any notes here.</p>
 
-
-
-
-
-
-            <div class="card-body">
-                <label for="We-accept" class="form-label "><strong>We accept:</strong></label>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
             </div>
-          </div>
+        </div>
     </div>
     
 
